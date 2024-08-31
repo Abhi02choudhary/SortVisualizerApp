@@ -1,0 +1,83 @@
+/* Existing styles */
+
+.visualizer-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ensure full viewport height */
+}
+
+.array-container {
+  position: relative;
+  flex: 1; /* Take up available space */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  overflow-x: auto;
+  background-color: #f0f0f0; /* Background color for the array container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.array-bar {
+  width: 10px;
+  display: inline-block;
+  margin: 0 1px;
+  background-color: pink; /* Bar color */
+}
+
+/* Navbar and heading styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+}
+
+.heading {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+/* Button styles */
+button {
+  padding: 10px;
+  background-color: aqua;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #b2a1ac; 
+  transform: scale(1.05); 
+}
+
+button:active {
+  background-color:#3e3d3e; 
+}
+
+/* Time Complexity Card styles */
+.time-complexity-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+.time-complexity-card {
+  margin-top: 10px;
+  padding: 20px;
+  background-color:#5d565a;
+  border: 1px solid #070101;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
